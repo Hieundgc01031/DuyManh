@@ -1,0 +1,17 @@
+@mixin line-v($bgc, $height){
+  width: 1px;
+  height: $height;
+  background-color: $bgc;
+}
+@mixin line-h($bgc, $width){
+  height: 1px;
+  width: $width;
+  background-color: $bgc;
+}
+
+@mixin box-sha{
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 10px 10px 0 rgba(0, 0, 0, 0.1);
+  border: 1px solid #eeeeee;
+}

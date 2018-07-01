@@ -1,0 +1,98 @@
+.bgc-orange {
+  background-color: #f60; }
+
+.color-orange {
+  color: #f60; }
+
+.bgc-blue {
+  background-color: #23a1f1; }
+
+.color-blue {
+  color: #23a1f1; }
+
+.header {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  height: 105px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  border-top: 3px solid #f05123;
+  background-color: rgba(255, 255, 255, 0.95); }
+  .header--content {
+    display: flex; }
+  .header__a {
+    flex-basis: auto;
+    flex-grow: 0;
+    overflow: hidden; }
+    .header__a img {
+      height: 105px;
+      overflow: hidden;
+      padding: 10px 0; }
+  .header--menu .first-row {
+    align-items: center;
+    height: 54px; }
+    .header--menu .first-row .fl-end {
+      align-items: center;
+      height: 100%; }
+    .header--menu .first-row .text-name {
+      font-size: 1.3em;
+      font-weight: bold;
+      color: #f60; }
+    .header--menu .first-row ul li {
+      font-size: 13px;
+      margin: 0 10px; }
+  .header--menu .secon-row {
+    height: 46px; }
+    .header--menu .secon-row .fl-end {
+      align-items: center;
+      height: 100%; }
+      .header--menu .secon-row .fl-end ul li {
+        text-transform: uppercase;
+        font-size: 13px;
+        margin: 0 10px; }
+      .header--menu .secon-row .fl-end a.signin {
+        background-color: #f60;
+        align-self: flex-end;
+        position: relative;
+        color: #fff;
+        text-align: center;
+        padding: 10px 10px 5px;
+        border-radius: 2px;
+        margin-left: 20px;
+        z-index: 1;
+        margin-bottom: -5px; }
+        .header--menu .secon-row .fl-end a.signin span {
+          color: #fff;
+          text-transform: uppercase;
+          font-weight: 700;
+          font-size: 16px; }
+        .header--menu .secon-row .fl-end a.signin p {
+          margin-bottom: 0;
+          font-size: 13px;
+          font-weight: 500; }
+        .header--menu .secon-row .fl-end a.signin svg {
+          position: absolute;
+          top: 100%;
+          left: 0;
+          width: 100%;
+          height: 5px; }
+          .header--menu .secon-row .fl-end a.signin svg path {
+            fill: #f60; }
+
+.footer {
+  padding-bottom: 30px; }
+  .footer--item {
+    color: #fff;
+    line-height: 1.7; }
+    .footer--item h3 {
+      color: #fff;
+      border-bottom: solid orange 2px;
+      text-align: center; }
+      .footer--item h3 span {
+        border-bottom: solid #fff 2px; }
+    .footer--item p {
+      margin-bottom: 0; }
+
+/*# sourceMappingURL=modules.css.map */
