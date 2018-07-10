@@ -1,3 +1,5 @@
-
+@media all and (min-width: 992px) and (max-width: 1200px) {
+  .header--menu .secon-row .fl-end .ul-menu .li-menu {
+    padding: 5px !important; } }
 
 /*# sourceMappingURL=responsive.css.map */
