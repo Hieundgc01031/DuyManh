@@ -1,5 +1,9 @@
 @import "mixin";
 @import "variable";
+.wrap-content{
+  position: relative;
+}
+
 .header{
   position: absolute;
   z-index: 1;

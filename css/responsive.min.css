@@ -1,1 +1,1 @@
-@media all and (min-width:1200px){.ul-menu .li-menu{padding:5px}}
+@media all and (min-width:992px) and (max-width:1200px){.header--menu .secon-row .fl-end .ul-menu .li-menu{padding:5px!important}}

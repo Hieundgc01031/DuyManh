@@ -10,6 +10,9 @@
 .color-blue {
   color: #23a1f1; }
 
+.wrap-content {
+  position: relative; }
+
 .header {
   position: absolute;
   z-index: 1;
