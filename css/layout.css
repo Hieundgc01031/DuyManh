@@ -579,6 +579,34 @@
       background-color: #f60;
       color: #fff; }
 
+.selectstu--form {
+  position: absolute;
+  top: 130px;
+  left: 100px;
+  z-index: 1;
+  background-color: #fff;
+  width: 350px;
+  border-radius: 3px;
+  border: 1px solid #f05123; }
+  .selectstu--form h4 {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background-color: #f05123;
+    margin: 0;
+    text-align: center;
+    padding: 10px 15px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 15px; }
+  .selectstu--form p {
+    text-align: center; }
+  .selectstu--form form {
+    padding: 10px 40px 10px 25px; }
+    .selectstu--form form input {
+      margin: 10px 0; }
+    .selectstu--form form select {
+      margin: 10px 0; }
 .selectstu--slide {
   width: 100%; }
   .selectstu--slide img {
