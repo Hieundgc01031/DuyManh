@@ -17,5 +17,27 @@ $(document).ready(function () {
 
 
     });
+
+    $(function() {
+        $("[href^='#']").on("click", function( e ) {
+
+            var target = $(this).attr('href');
+
+            var scrollTop = $( target ).offset().top - $('.header').outerHeight();
+
+
+            $("body, html").animate({
+                scrollTop: scrollTop
+            }, 800);
+
+            e.preventDefault();
+
+
+        });
+
+    });
+
+
+
 });
 
